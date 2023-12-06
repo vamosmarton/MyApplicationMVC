@@ -1,6 +1,7 @@
 package com.marton.vamos.MyApplication;
 
 import com.google.gson.Gson;
+import com.marton.vamos.MyApplication.entity.Restaurant;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,7 +20,6 @@ public class MyApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		// ArrayList<> létrehozása
 		ArrayList<Restaurant> restaurantArrayList = new ArrayList<>();
 
 		// éttermek példányosítás és hozzáadása a listához

@@ -1,8 +1,13 @@
-package com.marton.vamos.MyApplication;
+package com.marton.vamos.MyApplication.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.servlet.http.PushBuilder;
-
+@Entity
 public class Restaurant {
+    @Id
+    @GeneratedValue
     private int id;
     private String name;
     private String address;
