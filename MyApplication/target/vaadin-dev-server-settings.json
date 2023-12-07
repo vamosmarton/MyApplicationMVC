@@ -1,0 +1,18 @@
+{
+  "frontendFolder": "D:/Keretrendszerek/MyApplicationMVC/MyApplicationMVC/MyApplication/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/Keretrendszerek/MyApplicationMVC/MyApplicationMVC/MyApplication/./frontend/generated/jar-resources",
+  "staticOutput": "D:/Keretrendszerek/MyApplicationMVC/MyApplicationMVC/MyApplication/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\Keretrendszerek\\MyApplicationMVC\\MyApplicationMVC\\MyApplication\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\Keretrendszerek\\MyApplicationMVC\\MyApplicationMVC\\MyApplication\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/Keretrendszerek/MyApplicationMVC/MyApplicationMVC/MyApplication/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/Keretrendszerek/MyApplicationMVC/MyApplicationMVC/MyApplication/src/main/dev-bundle/config",
+  "jarResourcesFolder": "D:/Keretrendszerek/MyApplicationMVC/MyApplicationMVC/MyApplication/./frontend/generated/jar-resources",
+  "generatedFlowImportsFolder": "target/frontend",
+  "themeName": "",
+  "clientServiceWorkerSource": "D:\\Keretrendszerek\\MyApplicationMVC\\MyApplicationMVC\\MyApplication\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

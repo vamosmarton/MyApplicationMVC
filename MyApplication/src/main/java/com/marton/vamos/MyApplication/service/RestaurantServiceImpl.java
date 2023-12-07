@@ -6,6 +6,7 @@ import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -28,5 +29,10 @@ public class RestaurantServiceImpl implements RestaurantService {
     @Override
     public Restaurant saveRestaurant(Restaurant restaurantToSave) {
         return restaurantRepository.save(restaurantToSave);
+    }
+
+    @Override
+    public List<Restaurant> getAllRestaurants() {
+        return (List<Restaurant>) restaurantRepository.findAll();
     }
 }
